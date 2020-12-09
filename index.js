@@ -78,9 +78,9 @@ Use the addFlavor function below to do the following:
 
 // the example's parameters should be swapped around to pass the test;
 function addFlavor(arr, flavor) {
-  // return arr.unshift(flavor);
-  // unshift won't pass the test;
-  return [flavor].concat(arr);
+  arr.unshift(flavor);
+  return arr;
+  //   return [flavor].concat(arr);
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
