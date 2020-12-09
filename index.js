@@ -166,13 +166,13 @@ Use the filterByWord function below to do the following:
 */
 
 function filterByWord(arr, word) {
-  let res = [];
+  let filteredArray = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].includes(word)) {
-      res.push(arr[i]);
+      filteredArray.push(arr[i]);
     }
   }
-  return res;
+  return filteredArray;
 }
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/
